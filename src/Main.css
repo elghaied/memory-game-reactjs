@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.GameBoard {
+  
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./assets/imgs/bg-board.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.Music {
+  margin: 0.3rem;
+  color: white;
+  
+}
+
+/* where cards are kept */
+.Board-Bg {
+  height: 80vh;
+  width:80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: teal;
+  padding: 2rem;
+  margin: auto;
+
+ 
+}
+.Card {
+  height: 12.9rem;
+  width: 10rem;
+  border: 3px solid black;
+  background-image: url("./assets/imgs/back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Card img {
+  width:100%;
+  height: 100%;
+}
+.start-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(11, 10, 12);
+}
+.start-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: large;
+  text-transform: uppercase;
+}

@@ -1,3 +1,17 @@
+# Steps to Build the game
+
+1 - Create GameBorad Component that will contain all the elements of the game which will be simillar the the work of Scenes on Unity 
+2 - Cards Component which will be the main element of the game and will contain :-
+            - Square Canvas with two sides
+            - Json file that has the information of each card. 
+            - Create the function for the rules.
+            - Create the funtion for the shuffle.
+
+3 - Start Menu with an input to show the player name.
+4 - Timer Component that will be mounted when we press start the game.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
