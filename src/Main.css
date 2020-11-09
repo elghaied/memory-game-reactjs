@@ -19,6 +19,7 @@ code {
   background-image: url("./assets/imgs/bg-board.jpg");
   background-position: center;
   background-size: cover;
+  overflow-block: auto;
 }
 .Music {
   margin: 0.3rem;
@@ -26,6 +27,13 @@ code {
   
 }
 
+.navi {
+  display :flex;
+  justify-content: space-around;
+}
+.score h3 {
+  display: inline;
+}
 /* where cards are kept */
 .Board-Bg {
   height: 80vh;
@@ -34,32 +42,73 @@ code {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: teal;
   padding: 2rem;
   margin: auto;
 
  
 }
 .Card {
-  height: 12.9rem;
-  width: 10rem;
+
   border: 3px solid black;
   background-image: url("./assets/imgs/back.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 .Card img {
   width:100%;
   height: 100%;
 }
-.start-menu {
+
+/* test  */
+.image {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 12.9rem;
+  width: 10rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.image-blank {
+  background: url("./assets/imgs/back.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 12.9rem;
+  width: 10rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* end test  */
+.start-menu, .game-over {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
   background-color: rgb(11, 10, 12);
+}
+
+.new-game-btn {
+
+  width: 40%;
+  background-color: transparent;
+  border: none;
+  height: 5rem;
+  color:white;
+  font-size: 5rem;
+
+  
+  
 }
 .start-btn {
   background-color: transparent;

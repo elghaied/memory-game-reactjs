@@ -15,7 +15,7 @@ export class Music extends Component {
           play: true,
           pause: false
         });
-        console.log(this.audio);
+       
         this.BgSound.play();
       }
     
@@ -31,6 +31,7 @@ export class Music extends Component {
               {"Music"}  
                 <button onClick={this.play}>Play</button>
                 <button onClick={this.pause}>Pause</button>
+
             </div>
         )
     }
